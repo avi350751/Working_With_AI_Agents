@@ -22,7 +22,7 @@ driver.save_screenshot('avi1.png')
 # Quit the webdriver session
 driver.quit()
 
-client = OpenAI(api_key = 'sk-proj-KmLM8dGInw1m38HFFbLrT3BlbkFJeKJ4up5hpgj9CLpEc8K7')
+client = OpenAI(api_key = 'OPEN_API_KEY')
 
 def encode_image(image_path):
     with open(image_path, 'rb') as image_file:
